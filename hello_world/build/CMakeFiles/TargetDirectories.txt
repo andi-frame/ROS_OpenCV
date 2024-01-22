@@ -1,0 +1,3 @@
+C:/ITB/Projects/ROS & OpenCV/ROS_OpenCV/hello_world/build/CMakeFiles/hello_world.dir
+C:/ITB/Projects/ROS & OpenCV/ROS_OpenCV/hello_world/build/CMakeFiles/edit_cache.dir
+C:/ITB/Projects/ROS & OpenCV/ROS_OpenCV/hello_world/build/CMakeFiles/rebuild_cache.dir

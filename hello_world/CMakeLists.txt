@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.28.1)
 
-project(helloworld)
+project(HelloWorld)
 
-add_executable(helloworld main.cpp)
+add_executable(hello_world main.cpp)
