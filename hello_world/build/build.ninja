@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: HelloWorld
+# Project: helloworld
 # Configurations: 
 # =============================================================================
 
@@ -36,38 +36,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/ITB/Projects/ROS$ &$ OpenCV/ROS_OpenCV/hello_world/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target hello_world
+# Object build statements for EXECUTABLE target helloworld
 
 
 #############################################
-# Order-only phony target for hello_world
+# Order-only phony target for helloworld
 
-build cmake_object_order_depends_target_hello_world: phony || CMakeFiles/hello_world.dir
+build cmake_object_order_depends_target_helloworld: phony || CMakeFiles/helloworld.dir
 
-build CMakeFiles/hello_world.dir/main.cpp.obj: CXX_COMPILER__hello_world_unscanned_ C$:/ITB/Projects/ROS$ &$ OpenCV/ROS_OpenCV/hello_world/main.cpp || cmake_object_order_depends_target_hello_world
-  DEP_FILE = CMakeFiles\hello_world.dir\main.cpp.obj.d
-  OBJECT_DIR = CMakeFiles\hello_world.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello_world.dir
-  TARGET_COMPILE_PDB = CMakeFiles\hello_world.dir\
-  TARGET_PDB = hello_world.pdb
+build CMakeFiles/helloworld.dir/main.cpp.obj: CXX_COMPILER__helloworld_unscanned_ C$:/ITB/Projects/ROS$ &$ OpenCV/ROS_OpenCV/hello_world/main.cpp || cmake_object_order_depends_target_helloworld
+  DEP_FILE = CMakeFiles\helloworld.dir\main.cpp.obj.d
+  OBJECT_DIR = CMakeFiles\helloworld.dir
+  OBJECT_FILE_DIR = CMakeFiles\helloworld.dir
+  TARGET_COMPILE_PDB = CMakeFiles\helloworld.dir\
+  TARGET_PDB = helloworld.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target hello_world
+# Link build statements for EXECUTABLE target helloworld
 
 
 #############################################
-# Link the executable hello_world.exe
+# Link the executable helloworld.exe
 
-build hello_world.exe: CXX_EXECUTABLE_LINKER__hello_world_ CMakeFiles/hello_world.dir/main.cpp.obj
+build helloworld.exe: CXX_EXECUTABLE_LINKER__helloworld_ CMakeFiles/helloworld.dir/main.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello_world.dir
+  OBJECT_DIR = CMakeFiles\helloworld.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\hello_world.dir\
-  TARGET_FILE = hello_world.exe
-  TARGET_IMPLIB = libhello_world.dll.a
-  TARGET_PDB = hello_world.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\helloworld.dir\
+  TARGET_FILE = helloworld.exe
+  TARGET_IMPLIB = libhelloworld.dll.a
+  TARGET_PDB = helloworld.pdb
 
 
 #############################################
@@ -95,7 +95,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build hello_world: phony hello_world.exe
+build helloworld: phony helloworld.exe
 
 # =============================================================================
 # Folder targets.
@@ -105,7 +105,7 @@ build hello_world: phony hello_world.exe
 #############################################
 # Folder: C:/ITB/Projects/ROS & OpenCV/ROS_OpenCV/hello_world/build
 
-build all: phony hello_world.exe
+build all: phony helloworld.exe
 
 # =============================================================================
 # Built-in targets
